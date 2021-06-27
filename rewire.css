@@ -38,7 +38,11 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
+/* Set core body defaults */
 body {
+	min-height: 100vh;
+	scroll-behavior: smooth;
+	text-rendering: optimizeSpeed;
 	line-height: 1;
 }
 
@@ -59,14 +63,6 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
-
-/*  */
-/* Box sizing rules */
-*,
-*::before,
-*::after {
-	box-sizing: border-box;
 }
 
 /* Remove default padding */
@@ -91,14 +87,6 @@ blockquote,
 dl,
 dd {
 	margin: 0;
-}
-
-/* Set core body defaults */
-body {
-	min-height: 100vh;
-	scroll-behavior: smooth;
-	text-rendering: optimizeSpeed;
-	line-height: 1;
 }
 
 /* Remove list styles on ul, ol elements with a class attribute */
@@ -141,7 +129,7 @@ select {
   }
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1, h2, h3, h4, h5, h6 {
     font-size: normal;
     font-style: normal;
     font-weight: normal;
